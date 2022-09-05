@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/20-consumer/20-consumer.iml" filepath="$PROJECT_DIR$/20-consumer/20-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-interface-api/20-interface-api.iml" filepath="$PROJECT_DIR$/20-interface-api/20-interface-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-service-provider/20-service-provider.iml" filepath="$PROJECT_DIR$/20-service-provider/20-service-provider.iml" />
+    </modules>
+  </component>
+</project>

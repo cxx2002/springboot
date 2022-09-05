@@ -1,0 +1,5 @@
+#上线使用的配置环境
+server:
+  port: 8083
+  servlet:
+    context-path: /myonline

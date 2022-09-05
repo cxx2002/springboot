@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cxx.dao.StudentDao"><!--如果是动态代理就是namespace="com.cxx.mapper.XXXMapper",也就是接口的完全限定名称-->
+    
+    <select id="selectById" resultType="com.cxx.pojo.Student">
+        select id,name,age from student where id=#{stuId}
+    </select>
+
+</mapper>
